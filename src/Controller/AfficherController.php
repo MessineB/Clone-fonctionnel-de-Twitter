@@ -13,6 +13,6 @@ class AfficherController extends AbstractController
     {   $afficheModel = new AfficherModel;
         $id = $_GET['post_id'];
         $affiche = $afficheModel->affichepost($id);       
-         header('Location: ?page=admin');
+         header('Location: ?page=admin&?p=1');
     }
 }

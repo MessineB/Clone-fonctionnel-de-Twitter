@@ -15,6 +15,6 @@ class DeleteController extends AbstractController
         $delete = $deleteModel->deletepost($id);
         
 
-         header('Location: ?page=admin');
+         header('Location: ?page=admin&?p=1');
     }
 }

@@ -50,3 +50,8 @@ nav {
 .d-flex {
     display: -webkit-box !important;
 }
+
+nav {
+    display: flex;
+    justify-content: center;
+}

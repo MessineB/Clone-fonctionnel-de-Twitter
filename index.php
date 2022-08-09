@@ -33,7 +33,6 @@ class Application
             'method' => 'delete' 
         ],
         
-        
         'modif' => [
             'controller' => 'ModifController',
             'method' => 'modif' 
@@ -46,7 +45,6 @@ class Application
     ];
 
     const DEFAULT_ROUTE = 'post';
-
     private function match($route_name)
     {
         // je vérifie si la clef existe dans la liste des pages autorisées

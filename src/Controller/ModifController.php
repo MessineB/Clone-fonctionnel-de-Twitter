@@ -15,6 +15,6 @@ class ModifController extends AbstractController
         $modif = $modifModel->modifpost($id);
         
 
-         header('Location: ?page=admin');
+         header('Location: ?page=admin&?p=1');
     }
 }
